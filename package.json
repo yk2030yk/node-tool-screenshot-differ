@@ -1,0 +1,23 @@
+{
+  "name": "degradechecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "screenshot": "nightwatch --tag screenshots"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "date-utils": "^1.2.21",
+    "nightwatch": "^0.9.21",
+    "resemblejs": "^2.10.3",
+    "webdriver-manager": "^12.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
